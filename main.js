@@ -13,9 +13,9 @@ function numerico(){
     }
 
     if (numeroB > numeroA){
-        resultado.innerHTML = `O Número ${numeroB} é <strong>maior</strong> que o número ${numeroA}.`
+        resultado.innerHTML = `<strong>Sim</strong>, o Número ${numeroB} é <strong>maior</strong> que o número ${numeroA}.`
     }else if(numeroA > numeroB){
-        resultado.innerHTML = `O Número ${numeroA} é <strong>maior</strong> que o número ${numeroB}.`
+        resultado.innerHTML = `<strong>Não</strong>, o Número ${numeroA} é <strong>maior</strong> que o número ${numeroB}.`
     }else{
         resultado.innerHTML = `O Número ${numeroA} e ${numeroB} são <strong>iguais</strong>.`
     }
